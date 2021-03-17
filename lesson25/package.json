@@ -1,0 +1,14 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "funcions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artem Voychenko",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
