@@ -3,7 +3,7 @@ describe("dowbleElem", function(arr) {
 		assert(Array.isArray([1, 1, 2, 2, 3, 3]));
 	}); 
 	it("в массиве нечисловые элементы", () => { 
-const hasNumber = [1, 1, 2, 2, 3, 3].some((item)=> typeof item === 'number');
+const hasNumber = ['sadf', 'sadf', 'sadf', 'sadf', 'sadf', 'sadf'].some((item)=> typeof item === 'number');
 		 assert(!hasNumber);
 	}); 
 	it("в массиве не только числовые элементы", () => { 
