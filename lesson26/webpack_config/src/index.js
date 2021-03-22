@@ -8,11 +8,13 @@ import {multThree, multTwo} from './functions';
 import {growth, waning} from './array-utils';
 
 let arr = [5, 2, 1, -10, 8];
+let newArr = [...arr];
 
-// arr.sort(growth);
-arr.sort(waning);
+newArr.sort(growth);
+// newArr.sort(waning);
 
 console.log(arr);
+console.log(newArr);
 
 console.log('hello word');
 
