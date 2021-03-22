@@ -5,6 +5,14 @@ import $ from "jquery";
 
 import User from './User.js';
 import {multThree, multTwo} from './functions';
+import {growth, waning} from './array-utils';
+
+let arr = [5, 2, 1, -10, 8];
+
+// arr.sort(growth);
+arr.sort(waning);
+
+console.log(arr);
 
 console.log('hello word');
 
