@@ -7,14 +7,14 @@ import User from './User.js';
 import {multThree, multTwo} from './functions';
 import {growth, waning} from './array-utils';
 
-let arr = [5, 2, 1, -10, 8];
-let newArr = [...arr];
+let arrNumber = [5, 2, 1, -10, 8];
+let newArrNumber = [...arr];
 
-newArr.sort(growth);
-// newArr.sort(waning);
+newArrNumber.sort(growth);
+// newArrNumber.sort(waning);
 
-console.log(arr);
-console.log(newArr);
+console.log(arrNumber);
+console.log(newArrNumber);
 
 console.log('hello word');
 
@@ -43,3 +43,4 @@ john.printName();
 
 console.log(multThree(3));
 console.log(multTwo(5));
+
