@@ -33,7 +33,7 @@ class TaskInput extends React.Component{
 		return(
 			<div className="task-input">
 				<input onKeyPress={this.handleEnter} onChange={this.inputChange} value={input}></input>
-				<button onClick={this.addTask}>ADD</button>
+				<button onClick={this.addTask}>Добавить</button>
 			</div>
 		)
 	}

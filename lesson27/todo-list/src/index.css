@@ -30,12 +30,35 @@ body {
   }
   
   .top {
+	display: flex;
+    justify-content: space-between;
+	background: var(--text);
+	color: #ffffff;
+	padding: 10px;
+	font-size: 18px;
+	margin: 0;
+    text-transform: uppercase;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+  }
+  .top1 {
+	display: flex;
+    justify-content: center;
 	background: var(--text);
 	color: #ffffff;
 	padding: 10px;
 	font-size: 28px;
 	margin: 0;
-	font-weight: 500;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  }
+  .top2 {
+	background: var(--text);
+	color: #ffffff;
+	padding: 10px;
+	font-size: 10px;
+	margin: 0;
 	border-radius: 5px;
 	margin-bottom: 10px;
   }
@@ -46,6 +69,7 @@ body {
 	background-color: var(--text);
 	display: flex;
 	padding: 5px;
+	margin-bottom: 10px;
   }
   
   .task-input * {
@@ -94,6 +118,12 @@ body {
 	background-color: #00000027;
   }
   .task-done p {
+	color: #00000050;
+  }
+  .task-delete {
+	background-color: #00000027;
+  }
+  .task-delete p {
 	color: #00000050;
   }
   

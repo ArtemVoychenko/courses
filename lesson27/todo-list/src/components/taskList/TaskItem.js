@@ -3,18 +3,18 @@ import React from "react";
 
 
 
- const Task = ({ task, ...props}) => {
+ const TaskItem = ({ task, ...props}) => {
 
 const ActionBtn = () => (<div className="action-btn">
 	{!task.done ? (
-	<p onClick={props.doneTask}>OK</p>
+	<p onClick={props.doneTask}>&#9989;</p>
 		) : (
-		<p onClick={props.deleteTask}>NO OK</p>
+		<p onClick={props.deleteTask}>&#10060;</p>
 		)}
 		</div>
 		);
 
-const className = 'task' + (task.done ? 'task.done' : '');
+const className = 'task' + (task.done ? ' task-done' : '');
 
 	return (
 		<div className={className}>
@@ -23,4 +23,4 @@ const className = 'task' + (task.done ? 'task.done' : '');
 		</div>);
   };
 
-  export default Task;
+  export default TaskItem;
